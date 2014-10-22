@@ -1,0 +1,12 @@
+Source: ros-indigo-rail-segmentation
+Section: misc
+Priority: extra
+Maintainer: David Kent <davidkent@wpi.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-geometry-msgs, ros-indigo-message-generation, ros-indigo-pcl-conversions, ros-indigo-pcl-ros, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-std-srvs, ros-indigo-tf
+Homepage: http://ros.org/wiki/rail_segmentation
+Standards-Version: 3.9.2
+
+Package: ros-indigo-rail-segmentation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-geometry-msgs, ros-indigo-message-runtime, ros-indigo-pcl-conversions, ros-indigo-pcl-ros, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-std-srvs, ros-indigo-tf
+Description: Segmentation Functionality in the RAIL Lab
